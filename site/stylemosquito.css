@@ -71,11 +71,6 @@ img{
     display: block;
     margin: auto;
     padding: 10px;
-    max-width: 600px;
-}
-
-.imgpequena{
-    max-width: 350px;
 }
 
 .lista{
