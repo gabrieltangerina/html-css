@@ -73,6 +73,10 @@ img{
     padding: 10px;
 }
 
+.imgpequena{
+    max-width: 350px;
+}
+
 .lista{
     background-color: #E6A88A;
     border-radius: 5px 5px 0px 0px;
@@ -101,6 +105,7 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 500px;
 }
 
 footer{
