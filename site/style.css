@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-:root{
-    --cor0:;
-    --cor1:;
-    --cor2:;
-    --cor3:;
-    --cor4:;
-    --cor5:;
-}
-
 body{
     background-color: rgb(144, 87, 197);
 }
