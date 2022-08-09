@@ -1,3 +1,30 @@
 @charset "UTF-8";
 
-:root
+:root{
+    --cor0:;
+    --cor1:;
+    --cor2:;
+    --cor3:;
+    --cor4:;
+    --cor5:;
+}
+
+body{
+    background-color: rgb(144, 87, 197);
+}
+
+main{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+
+    margin: auto;
+    min-width: 270px;
+    max-width: 800px;
+
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+}
