@@ -13,7 +13,15 @@
         table{
             font-family: Arial, Helvetica, sans-serif;
             border-collapse: collapse;
-            width: 400px;
+            width: 500px;
+            position: relative;
+        }
+        
+        caption{
+            font-weight: bolder;
+            font-size: 1.3em;
+            background-color:cadetblue;
+            padding: 10px;
         }
 
         tr, td,th{
@@ -22,8 +30,22 @@
         }
 
         thead, tfoot{
-            background-color:tomato;
+            background-color:cadetblue;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: cadetblue;
+        }
+
+        tbody > tr:nth-child(2n-1){
+            background-color: wheat;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: rgba(165, 165, 165, 0.979);
         }
 
         td.num{
@@ -45,10 +67,11 @@
     -->
 
     <table>
+        <caption>Estados do Brasil e suas respectivas populações</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:90px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -158,7 +181,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td class="num"><strong>210 147 125</strong></td>
         </tfoot>
     </table>
