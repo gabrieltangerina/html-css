@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit explicabo nam tempora, perspiciatis libero quisquam atque qui eos. Possimus esse accusantium dolorem culpa dignissimos? Eius autem impedit ipsa eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est consectetur, eveniet tempore eaque sapiente dolorum, expedita ut nihil iste quibusdam aliquam pariatur cupiditate atque libero. Magnam voluptates nam quo.</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="pag002.html" target="frame">Segundo página</a></li>
+        <li><a href="pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A cumque doloribus at? Dolore explicabo sapiente atque saepe, sequi omnis inventore labore cupiditate eum debitis. Quaerat vitae commodi consequuntur provident veniam?</p>
+
+    <iframe srcdoc="<h1> Escolha uma das 3 opções de início</h1> <img src='imagens/bugdroid.png'> " name="frame">
+        <p>Infelizmente o seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae accusamus quas, ipsum, est perferendis alias nihil officiis repellendus sed iusto eos eveniet vel accusantium earum, voluptas nemo id labore voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquam voluptates, cupiditate, quas doloribus, tempora sit veniam architecto esse porro atque hic dignissimos laborum. Dicta illum soluta quaerat officiis debitis.</p>
+</body>
+</html>
+
