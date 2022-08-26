@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+
+@media print{
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        text-shadow: none;
+        color: black;
+    }
+
+    main{
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    main::after{
+        content: 'Página para a impressão';
+        padding: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    #phone{display: none;}
+    #print{display: block; margin: auto;}
+}
+
+@media  screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone{display: none;}
+    #tablet{display: block; margin: auto;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: block; margin: auto;}
+    #tv{display: none;}
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: block; margin: auto;}
+}
