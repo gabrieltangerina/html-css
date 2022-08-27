@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto Hambúrguer</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Jogos</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Fale conosco</a></li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla vel natus nemo, doloremque neque tempore ex velit dignissimos at nihil eum quo sapiente esse sunt. Dolor tempore nemo repudiandae rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quae sequi maxime quis dolorum, sed tenetur impedit necessitatibus reprehenderit iusto alias eaque? Quidem a nobis voluptatum, quae vero repellendus labore?</p> 
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta ex eaque quibusdam quaerat tenetur suscipit, aut, nisi, velit placeat eum facilis beatae itaque. Suscipit odio non officiis veniam. Corrupti, culpa? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum unde fuga, cumque odit, suscipit, placeat labore architecto similique incidunt quia deserunt explicabo excepturi a ut magni facilis vero doloribus ducimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum in doloribus, quibusdam esse vel obcaecati suscipit, repellat quisquam ipsa quia mollitia excepturi assumenda facilis eaque id quod commodi quos? Accusantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum vel alias maxime quo earum, omnis obcaecati minus quidem fugiat at possimus autem, officiis eveniet illo eius quam temporibus corporis.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
