@@ -43,6 +43,7 @@ menu > ul{
 menu > ul > li > a{
     display: block;
     padding: 10px;
+    margin-top: 10px;
     text-decoration: none;
     background-color: #C1B0F4;
     color: black;
